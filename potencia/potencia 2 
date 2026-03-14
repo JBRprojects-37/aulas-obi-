@@ -1,0 +1,26 @@
+
+include <iostream>
+
+using namespace std;
+
+int main(void){
+    int base, exp, res= 1;
+         
+    cout << "Qual a base ?";
+    cin >> base;
+
+    cout << "qual o expoente da potencia ?";
+    cin >> exp;
+
+int i = 0;
+
+while(i < exp){
+    res*=base;// res = res * base 
+                                            
+     i ++; // i = i + 1 ou i += 1
+     }
+
+    cout << " a resposta é" << res << "\n ";
+                                                             
+     return 0;
+ }
